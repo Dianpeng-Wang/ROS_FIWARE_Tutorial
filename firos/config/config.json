@@ -1,0 +1,21 @@
+{
+  "environment": "local",
+
+  "local": {
+    "server": {
+        "port": 10100
+    },
+    "contextbroker": {
+        "address"   : "217.172.12.142",
+        "port"      : 1026,
+        "subscription": {
+          "throttling": "PT0S",
+          "subscription_length": "P1D",
+          "subscription_refresh_delay": 0.5
+        }
+    },
+    "log_level": "INFO",
+    "interface": "wlan0"
+  }
+
+}
