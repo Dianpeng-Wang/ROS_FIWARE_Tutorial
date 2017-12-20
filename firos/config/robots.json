@@ -10,5 +10,15 @@
                 "type": "subscriber"
             }
         }
+    },
+  "husky_fiware":{
+        "topics": {
+            "odometry/filtered": {
+                "msg": "nav_msgs.msg.Odometry",
+                "type": "subscriber"
+            }
+        }
     }
+
+
 }
